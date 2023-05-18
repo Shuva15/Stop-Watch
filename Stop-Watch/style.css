@@ -1,0 +1,64 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+    min-height: 70vh;
+    width: 70vw;
+    margin: 100px auto;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px;
+}
+
+.time {
+    font-size: 75px;
+    text-align: center;
+}
+
+
+.myBtns {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
+
+.btn {
+    padding: 10px 30px;
+  font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.971);
+    color: white;
+    cursor: pointer;
+}
+
+#lap, #pause, #reset, #resume {
+    display: none;
+}
+
+.lapLine {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lapTime {
+    padding: 15px;
+    font-size: 20px;
+}
+
+#index {
+    font-weight: 800;
+}
+
+#currentTime {
+    font-size: 20px;
+}
